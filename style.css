@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    background-color: black;
+}
+.container{
+    max-width: 90rem;
+    margin:2rem auto;
+    padding:0px 2rem;
+
+}
+.heading{
+    text-align: center;
+}
+.title{
+margin-bottom: 0.5rem;
+text-align: center;
+}
+.title2{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.tribute{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: rgba(127, 116, 116, 0.275);
+    color:black;
+    align-items:center;
+    padding:0px 0px 0px 1rem;
+    border-style: double;
+    border-color: #ffffff;
+    border-width: 10px;
+}
+.image1{
+    max-width: 75%;
+    float: right;
+    border-radius:300%;
+}
+.quote{
+    font-family: Georgia;
+    color:white;
+    font-size:large;
+    padding-bottom: 100px;
+}
+.blockquote--quoted::before{
+    content:"\201c";
+    font-size:100px;
+    color:#ffffff;
+    margin-top: 100px;
+}
+.about{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+    font-family:Verdana;
+}
+.line1{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family:Verdana;
+    
+}
+.gg-chevron-double-down {
+    position: relative;
+    display: block;
+    color:#ffffff;
+    padding-bottom: 12px;
+}
+.gg-chevron-double-down::after,
+.gg-chevron-double-down::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width:22px;
+    height:22px;
+    border-bottom:4px solid;
+    border-right: 4px solid;
+    transform: rotate(45deg);
+    left: 7px;
+    top: 3px
+}
+.gg-chevron-double-down::after {
+    top:15px
+}
+.icon{
+    text-align:justify;
+    padding-left: 700px;
+}
+.about2{
+    padding-top:100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+    font-family:Verdana;
+}
+.bottom{
+    padding-left: 700px;
+}
+
